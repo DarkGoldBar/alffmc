@@ -1,2 +1,2 @@
-# bfmc
-Bond-Finder for molecular crystal
+# alffmc
+Atom Linkage Finder for Molecular Crystal
