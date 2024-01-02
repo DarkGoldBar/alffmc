@@ -62,8 +62,8 @@ def alffmc_np(
 
     mask2 = np.all((ibox[0] <= coords1), axis=1) * np.all((coords1 < ibox[-1]), axis=1)
     coords2 = coords1[mask2]
-    index2 = coords1[mask2]
-    radius2 = coords1[mask2]
+    index2 = index1[mask2]
+    radius2 = radius1[mask2]
 
     assert coords2.shape[0] == nsym * natom, f'{coords2.shape[0]} != {nsym * natom}'
 
